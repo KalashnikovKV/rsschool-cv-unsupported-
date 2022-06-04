@@ -130,13 +130,13 @@ function getValidSib(cord) {
 ```
 * * *
 ## **Experience**
-* Internship in **[ITRex Group](https://itrexgroup.com/)** (2 months)
+* Internship in **[ITRex Group](https://itrexgroup.com/)** (2 months);
 * * *
 ## **Courses**
-* [IT Academy](https://www.linkedin.com/school/it-academy/) Java fundamentals (88 academic hours)
-* JavaScript on [learnjavascript.ru](https://learn.javascript.ru/)
-* Some courses on [https://www.linkedin.com/learning](https://www.linkedin.com/learning)
-* [RS Schools](https://rs.school/) , [Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
+* [IT Academy](https://www.linkedin.com/school/it-academy/) Java fundamentals (88 academic hours);
+* JavaScript on [learnjavascript.ru](https://learn.javascript.ru/);
+* Some courses on [https://www.linkedin.com/learning](https://www.linkedin.com/learning);
+* [RS Schools](https://rs.school/) , [Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress);
 * * *
 ## **Languages**
 * ***English*** - A2+
