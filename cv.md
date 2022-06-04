@@ -4,7 +4,7 @@
 ## **Contact information**:
 ### Phone: +37062387681
 ### E-mail: kirillrik1994@gmail.com
-### [Telegramm](https://t.me/s1ran0)
+### [Telegram](https://t.me/s1ran0)
 ### [LinkedIn](https://www.linkedin.com/in/kirill-kalashnikov/)
 ### [GitHub](https://github.com/KalashnikovKV)
 * * *
