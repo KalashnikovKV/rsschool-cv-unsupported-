@@ -12,10 +12,11 @@
 * **HTML/CSS**;
 * **Javascript**;
 * **Java Core**;
-* ***Node JS***;
+* **Node JS**;
 * **Express JS**;
 * **Docker**;
 * **Git, GitHub**;
+* **VS Code, IntelliJ IDEA**;
 
 * * *
 ## **Code example**
@@ -23,6 +24,7 @@
 ### Write an algorithm for finding a way out of the maze. The maze is a 2-dimensional array in which:
 ### 0 - start position + - way # - wall
 ### The solution should be an array of strings with a sequence of necessary actions to exit the maze.
+
 ### _Example of input data_:
 ### [ ['#','#','#','#','#','#','#','#','#'],
 ### ['#','+','+','+','#','+','+','+','#'],
@@ -126,3 +128,16 @@ function getValidSib(cord) {
     return cords.filter((el) => el.val === "+");
 }
 ```
+* * *
+## **Experience**
+* Internship in **[ITRex Group](https://itrexgroup.com/)** (2 months)
+* * *
+## **Courses**
+* [IT Academy](https://www.linkedin.com/school/it-academy/) Java fundamentals (88 academic hours)
+* JavaScript on [learnjavascript.ru](https://learn.javascript.ru/)
+* Some courses on [https://www.linkedin.com/learning](https://www.linkedin.com/learning)
+* [RS Schools](https://rs.school/) , [Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
+* * *
+## **Languages**
+* ***English*** - A2+
+* ***Russian*** - Native
