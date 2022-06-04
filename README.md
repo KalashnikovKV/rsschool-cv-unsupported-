@@ -1,1 +1,1 @@
-# rsschool-cv
+https://KalashnikovKV.github.io/rsschool-cv/cv
