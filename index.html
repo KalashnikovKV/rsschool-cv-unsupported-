@@ -19,7 +19,7 @@
         <img src=".//assets/img/avatar.jpg" class="section-profile-logo" alt="profile-logo">
         <div class="section-profile-title">
           <h1 class="header-section-title section-title">Kirill Kalashnikov</h1>
-          <h3 class="section-subtitle">junior javascript developer
+          <h3 class="section-subtitle">junior javascript developer</h3>
         </div>
       </section>
     </div>
@@ -124,20 +124,15 @@
         <h2 class="section-title">Code</h2>
         <pre>
           <code class="section-code">
-            let list = document.querySelector('.posts')
-            fetch('https://www.nbrb.by/api/exrates/rates?periodicity=0')
-            .then(res => res.json())
-            .then(data => {
-              for (const key in data) {
-                list.innerHTML += `<tr class="post">
-                  <td><b>${data[key].Cur_Scale}</b></td>
-                  <td>${data[key].Cur_Name }</td>
-                  <td>${data[key].Cur_Abbreviation}</td>
-                  <td><b>${data[key].Cur_OfficialRate}</b></td>
-                </tr>`
+            function genMagicSquare(n) {
+              if(n === 2){
+                  console.log('Impossible');
+              } else {
+                  if(n === 1 || n === 3){
+                    findMagicSquareThree(n);
+                  }
                 }
-            })
-            .catch(err => console.log(err))
+            }
           </code>
           </pre>
       </section>
