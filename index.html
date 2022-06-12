@@ -1,84 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>Kirill Kalashnikov CV</title>
 </head>
+
 <body>
-  <main class="main-content">
-    <div class="profile">
-      <div class="image">
-        <img src="./img/avatar.jpg" alt="image">
-      </div>
-      <div class="name-career">
-        <h1 class="name">Kirill Kalashnikov</h1>
-        <p class="career">junior javascript developer</p>
-      </div>
-    </div>
-    <section class="left-section">
-      <div class="left-content">
-        <div class="information">
-          <div class="contact-info">
-            <h3 class="main-title">Contact Info</h3>
-            <ul>
-              <li>
-                <i class="fa fa-phone"></i>
-                +37062387681
-              </li>
-              <li>
-                <i class="fa fa-envelope"></i>
-                kirillrik1994@gmail.com
-              </li>
-              <li>
-                <i class="fa fa-map-marker"></i>
-                Lithuania
-              </li>
-            </ul>
-          </div>
-          <div class="skills-section">
-            <h3 class="main-title">Skills</h3>
-            <ul>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                HTML/CSS
-              </li>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                Javascript
-              </li>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                Java Core
-              </li>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                Node JS
-              </li>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                Express JS
-              </li>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                Docker
-              </li>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                Git, GitHub
-              </li>
-              <li>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                VS Code, IntelliJ IDEA
-              </li>
-            </ul>
-          </div>
+  <header class="header">
+    <div class="container header-container">
+      <section class="section section-profile" id="profile">
+        <img src=".//assets/img/avatar.jpg" class="section-profile-logo" alt="profile-logo">
+        <div class="section-profile-title">
+          <h1 class="header-section-title section-title">Kirill Kalashnikov</h1>
+          <h3 class="section-subtitle">junior javascript developer
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+  </header>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#about " class="nav-link">about</a></li>
+      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+      <li class="nav-item"><a href="#skills " class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#education " class="nav-link">education</a></li>
+      <li class="nav-item"><a href="#projects " class="nav-link">projects</a></li>
+      <li class="nav-item"><a href="#code " class="nav-link">code</a></li>
+      <li class="nav-item"><a href="#languages " class="nav-link">languages</a></li>
+    </ul>
+  </nav>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="about">
+        <h2 class="section-title">About</h2>
+        <p class="text">
+          I’m a junior frontend developer. I’m 27 years old. I was born in Minsk, now I live in Vilnius. I want to
+          upgrade my skills.
+        </p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts Info</h2>
+        <ul>
+          <li class="section-item">
+            +370 623 87 681
+          </li>
+          <li class="section-item">
+            kirillrik1994@gmail.com
+          </li>
+          <li class="section-item">
+            Lithuania
+          </li>
+          <li class="section-item">
+            <a href="https://www.linkedin.com/in/kirill-kalashnikov/">LinkedIn</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li class="section-item">
+            HTML/CSS
+          </li>
+          <li class="section-item">
+            Javascript
+          </li>
+          <li class="section-item">
+            Java Core
+          </li>
+          <li class="section-item">
+            Node JS
+          </li>
+          <li class="section-item">
+            Express JS
+          </li>
+          <li class="section-item">
+            Docker
+          </li>
+          <li class="section-item">
+            Git, GitHub
+          </li>
+          <li class="section-item">
+            VS Code, IntelliJ IDEA
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li class="section-item">
+            <a href="https://www.linkedin.com/school/it-academy/">IT Academy</a>
+            <br><span>Java fundamentals (88 academic hours)</span>
+          </li>
+          <li class="section-item">
+            <a href="https://learn.javascript.ru/">learnjavascript.ru</a>
+            <br><span>JavaScript</span>
+          </li>
+          <li class="section-item">
+            <a href="https://www.linkedin.com/learning">LinkedinLearning</a>
+            <br><span>Some courses</span>
+          </li>
+          <li class="section-item">
+            <a href="https://rs.school/">RS Schools</a>
+            <br><span><a href="https://rs.school/js-stage0/">Course «JavaScript/Front-end. Stage
+                0»</a>(in progress)</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul>
+          <li class="section-item">
+            <a href="https://kalashnikovkv.github.io/minesweeper/">Minesweeper</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre>
+          <code class="section-code">
+            let list = document.querySelector('.posts')
+            fetch('https://www.nbrb.by/api/exrates/rates?periodicity=0')
+            .then(res => res.json())
+            .then(data => {
+              for (const key in data) {
+                list.innerHTML += `<tr class="post">
+                  <td><b>${data[key].Cur_Scale}</b></td>
+                  <td>${data[key].Cur_Name }</td>
+                  <td>${data[key].Cur_Abbreviation}</td>
+                  <td><b>${data[key].Cur_OfficialRate}</b></td>
+                </tr>`
+                }
+            })
+            .catch(err => console.log(err))
+          </code>
+          </pre>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li class="section-item">
+            <p>English - A2</p>
+          </li>
+          <li class="section-item">
+            <p>Russian - Native</p>
+          </li>
+        </ul>
+      </section>
+    </div>
   </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>
+        <span>2022</span>
+        <a href="https://github.com/KalashnikovKV" class="section-item github-link">KalashnikovKV</a>
+      </div>
+      <a href="https://rs.school/js/" class="rss-school-js"></a>
+    </div>
+  </footer>
 </body>
+
 </html>
